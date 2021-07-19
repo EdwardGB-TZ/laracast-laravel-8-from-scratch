@@ -76,6 +76,7 @@ Route::post('/logout', [SessionsController::class, 'destroy'])->middleware('auth
 
 
 
+
 // Always try to stick to the seven RESTFUL actions
 // index, show, create, store, edit, update, delete
 
